@@ -35,4 +35,23 @@ It provides a clean, responsive, and feature-rich experience for writers and rea
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure 
+IntelliSync-Blog/
+│
+├── frontend/ # React frontend code
+│ ├── src/
+│ │ ├── assets/ # Images, icons, and static files
+│ │ ├── components # Reusable UI components
+│ │ ├── pages/ # Application pages (Home, Blog, etc.)
+│ │ └── App.jsx # React entry point
+│ └── package.json # Frontend dependencies
+│
+├── backend/ # Node.js backend code
+│ ├── models/ # Database schemas
+│ ├── routes/ # API endpoints
+│ ├── controllers/ # Business logic
+│ └── server.js # Backend entry point
+│
+├── .gitignore # Files ignored by Git
+├── README.md # Project documentation
+└── package.json # Root config (optional if combined setup)
